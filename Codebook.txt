@@ -1,0 +1,122 @@
+Codebook for Getting and Cleaning Data Final Project (Coursera - Data Science specialization)
+
+This codebook describes the data set produced in the final project.  It is on the file 
+summerized_tidy_data.txt
+
+There are 4 columns in the file
+1. Subject number: an integer that takes on all values from 1 to 30
+2. Activity: There are 6 activities
+	WALKING: subject was walking
+	WALKING_UPSTAIRS: subject was walking upstairs
+	WALKING_DOWNSTAIRS: subject was walking downstairs
+	SITTING: subject was sitting
+	STANDING: subject was standing
+	LAYING: subject was laying
+3. Variable: there are 66 variables for each subject/activity. They are listed and described below
+4. Mean of Variable for each subject/activity
+
+VARIABLES:
+
+* Mean and Standard deviation of the frequency-domain body angular velocity in the X, Y and Z directions: 
+"freqBodyAngular-mean()-X"
+"freqBodyAngular-mean()-Y"
+"freqBodyAngular-mean()-Z"
+"freqBodyAngular-std()-X"
+"freqBodyAngular-std()-Y"
+"freqBodyAngular-std()-Z"
+
+
+* Mean and Standard deviation of the frequency-domain body angular jerk magnitude 
+"freqBodyAngularJerkMagnitude-mean()"
+"freqBodyAngularJerkMagnitude-std()"
+
+* Mean and Standard deviation of the frequency-domain body angular magnitudes 
+"freqBodyAngularMagnitude-mean()"
+"freqBodyAngularMagnitude-std()"
+
+* Mean and Standard deviation of the frequency-domain body linear velocity in the X, Y and Z directions: 
+"freqBodyLinear-mean()-X"
+"freqBodyLinear-mean()-Y"
+"freqBodyLinear-mean()-Z"
+"freqBodyLinear-std()-X"
+"freqBodyLinear-std()-Y"
+"freqBodyLinear-std()-Z"
+
+* Mean and Standard deviation of the frequency-domain body linear jerk in the X, Y and Z directions: 
+"freqBodyLinearJerk-mean()-X"
+"freqBodyLinearJerk-mean()-Y"
+"freqBodyLinearJerk-mean()-Z"
+"freqBodyLinearJerk-std()-X"
+"freqBodyLinearJerk-std()-Y"
+"freqBodyLinearJerk-std()-Z"
+
+
+
+* Mean and Standard deviation of the frequency-domain body linear jerk magnitude:
+"freqBodyLinearJerkMagnitude-mean()"
+"freqBodyLinearJerkMagnitude-std()"
+
+* Mean and Standard deviation of the frequency-domain body linear magnitude:
+"freqBodyLinearMagnitude-mean()"
+"freqBodyLinearMagnitude-std()"
+
+* The mean and standard deviation of the time-domain body angular velocity in the X, Y and Z coordinates 
+"timeBodyAngular-mean()-X"
+"timeBodyAngular-mean()-Y"
+"timeBodyAngular-mean()-Z"
+"timeBodyAngular-std()-X"
+"timeBodyAngular-std()-Y"
+"timeBodyAngular-std()-Z"
+
+* The mean and standard deviation of the time-domain body angular jerk in the X, Y and Z coordinates
+"timeBodyAngularJerk-mean()-X"
+"timeBodyAngularJerk-mean()-Y"
+"timeBodyAngularJerk-mean()-Z"
+"timeBodyAngularJerk-std()-X"
+"timeBodyAngularJerk-std()-Y"
+"timeBodyAngularJerk-std()-Z"
+
+* The mean and standard deviation of the time-domain body angular jerk magnitudes 
+"timeBodyAngularJerkMagnitude-mean()"
+"timeBodyAngularJerkMagnitude-std()"
+
+* The mean and standard deviation of the time-domain body angular velocity magnitudes 
+"timeBodyAngularMagnitude-mean()"
+"timeBodyAngularMagnitude-std()"
+
+* The mean and standard deviation of the time-domain body linear velocity in the X, Y and Z coordinates 
+"timeBodyLinear-mean()-X"
+"timeBodyLinear-mean()-Y"
+"timeBodyLinear-mean()-Z"
+"timeBodyLinear-std()-X"
+"timeBodyLinear-std()-Y"
+"timeBodyLinear-std()-Z"
+
+* The mean and standard deviation of the time-domain body linear jerk in the X, Y and Z coordinates 
+"timeBodyLinearJerk-mean()-X"
+"timeBodyLinearJerk-mean()-Y"
+"timeBodyLinearJerk-mean()-Z"
+"timeBodyLinearJerk-std()-X"
+"timeBodyLinearJerk-std()-Y"
+"timeBodyLinearJerk-std()-Z"
+
+* The mean and standard deviation of the time-domain body linear jerk magnitude 
+"timeBodyLinearJerkMagnitude-mean()"
+"timeBodyLinearJerkMagnitude-std()"
+
+* The mean and standard deviation of the time-domain body linear velocity magnitude 
+"timeBodyLinearMagnitude-mean()"
+"timeBodyLinearMagnitude-std()"
+
+* The mean and standard deviation of the time-domain gravity acceleration in the X, Y and Z coordinates 
+"timeGravityLinear-mean()-X"
+"timeGravityLinear-mean()-Y"
+"timeGravityLinear-mean()-Z"
+"timeGravityLinear-std()-X"
+"timeGravityLinear-std()-Y"
+"timeGravityLinear-std()-Z"
+
+* The mean and standard deviation of the time-domain gravity acceleration Magnitude
+"timeGravityLinearMagnitude-mean()"
+"timeGravityLinearMagnitude-std()"
+
